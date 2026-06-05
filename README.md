@@ -38,10 +38,14 @@ Our biggest hurdle was with getting the IMU to work together with the GPS, as th
 
 ## Final Project Documentation
 ### CAD Models
-```stl
-models/CameraMountV2.stl
-```
-[PiBottom](./models/PiBottom.stl)
+[Camera Mount](./models/CameraMountV2.stl)
+[DC-DC Converter Case](./models/DCDCConverterCase.stl)
+[GPS Body Case](./models/GPSCaseBody.stl)
+[GPS Antenna Case](./models/GPSCaseCapv7.stl)
+[Serve PCB Case](./models/ServoPCBCase.stl)
+[VESC Case](./models/VESCBoxV2.stl)
+[Top half of RPi Case - thanks to Thingiverse](https://www.thingiverse.com/thing:7025215)
+[Bottom half of RPi Case](./models/PiBottom.stl)
 
 
 ## Usage
