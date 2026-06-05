@@ -39,9 +39,10 @@ Our biggest hurdle was with getting the IMU to work together with the GPS, as th
 ## Final Project Documentation
 ### CAD Models
 ```stl
-models/PiBottom.stl
+models/CameraMountV2.stl
 ```
 [PiBottom](./models/PiBottom.stl)
+
 
 ## Usage
 To run this fusion, follow the steps in the donkeycar repo, and change the config file to turn on the fusion.
