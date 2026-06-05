@@ -37,6 +37,10 @@ The goal of this project is to create a new fusion module between the Adafruit B
 Our biggest hurdle was with getting the IMU to work together with the GPS, as they would often overcorrect on positions or compete for trust on the true location of the car. Additionally, the IMU had some drift associated with it, giving us a forward value when the car is stationary. Tuning the fusion to account for both issues was the biggest hurdle we had to overcome, but we managed to complete it for a consistent fusion between the two modules.
 
 ## Final Project Documentation
+### CAD Models
+```stl
+models/PiBottom.stl
+```
 
 ## Usage
 To run this fusion, follow the steps in the donkeycar repo, and change the config file to turn on the fusion.
