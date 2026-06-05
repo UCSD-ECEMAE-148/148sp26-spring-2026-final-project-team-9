@@ -2,19 +2,18 @@
 ![UCSDLogo](images/UCSDLogo.png)
 
 ### <div align="center"> ECE 148 Final Project </div>
-#### <div align="center"> Team 9 Winter 2026 </div>
+#### <div align="center"> Team 9 Spring 2026 </div>
 
 ## Table of Contents
 1. [Team Members](#team-members)
 2. [Abstract](#abstract)
-3. [Goals of this Project](#goals-of-this-project)
+3. [Accomplishments](#accomplishments)
     - [What We Promised](#what-we-promised)
     - [Stretch Goals](#stretch-goals)
-4. [Accomplishments](#accomplishments)
-5. [Challenges](#challenges)
-6. [Final Project Documentation](#final-project-documentation)
-7. [Acknowledgements](#acknowledgements)
-8. [Contacts](#contacts)
+4. [Challenges](#challenges)
+5. [Final Project Documentation](#final-project-documentation)
+6. [Acknowledgements](#acknowledgements)
+7. [Contacts](#contacts)
 
 ## Team Members
 - Abdulaziz Khader - Computer Engineering - Class of 2026
@@ -24,20 +23,27 @@
 ## Abstract
 The goal of this project is to create a new fusion module between the Adafruit BNO08x IMU and the SparkFun NEO-F10N GPS, with the aim to create a more accessible set of parts for the DonkeyCar community. 
 
-## Goals of this Project
+## Accomplishments
 ### What We Promised
+- We managed to create a module for the BNO08x IMU and the NEO-F10n GPS, and the fusion generates locational data at 20Hz - limited by the speed of the main loop in DonkeyCar. 
+- We tested the accuracy of this fusion on DonkeyCar's path_follow project, where the car follows a path determined by the GPS markers on a loop around campus.
 
 ### Stretch Goals
-One stretch goal is to make the IMU and GPS integration modular so that you can use the BNO08x IMU with any kind of GPS, not just the NEO-F10N GPS. Additionally, another supsequent goal is to measure the performance of the new IMU/GPS fusion against another GPS that supports RTK corrections to determine if upgrading the GPS would make a difference. 
-
-## Accomplishments
+- One stretch goal is to make the IMU and GPS integration modular so that you can use the BNO08x IMU with any kind of GPS, not just the NEO-F10N GPS. 
+- Additionally, another supsequent goal is to measure the performance of the new IMU/GPS fusion against another GPS that supports RTK corrections to determine if upgrading the GPS would make a difference. 
 
 
 ## Challenges
+Our biggest hurdle was with getting the IMU to work together with the GPS, as they would often overcorrect on positions or compete for trust on the true location of the car. Additionally, the IMU had some drift associated with it, giving us a forward value when the car is stationary. Tuning the fusion to account for both issues was the biggest hurdle we had to overcome, but we managed to complete it for a consistent fusion between the two modules.
 
 ## Final Project Documentation
+
+## Usage
+To run this fusion, follow the steps in the donkeycar repo, and change the config file to turn on the fusion.
 
 ## Acknowledgements
 
 ## Contacts
-
+- Abdulaziz Khader - akhader@ucsd.edu 
+- Filip Kurial - fkurial@ucsd.edu
+- Guoxi Wu - guw007@ucsd.edu
