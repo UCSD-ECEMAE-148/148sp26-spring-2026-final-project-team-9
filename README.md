@@ -41,6 +41,7 @@ Our biggest hurdle was with getting the IMU to work together with the GPS, as th
 ```stl
 models/PiBottom.stl
 ```
+[PiBottom](./models/PiBottom.stl)
 
 ## Usage
 To run this fusion, follow the steps in the donkeycar repo, and change the config file to turn on the fusion.
