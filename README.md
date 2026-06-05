@@ -52,6 +52,8 @@ Our biggest hurdle was with getting the IMU to work together with the GPS, as th
 To run this fusion, follow the steps in the donkeycar repo, and change the config file to turn on the fusion.
 
 ## Acknowledgements
+*Huge thanks to Professor Silberman for making this a class we can have fun with! And thanks to Winston and Jose for helping us debug all the issues with the GPS. You are incredibe and amazing people!*
+
 
 ## Contacts
 - Abdulaziz Khader - akhader@ucsd.edu 
