@@ -47,6 +47,10 @@ Our biggest hurdle was with getting the IMU to work together with the GPS, as th
 - [Top half of RPi Case - thanks to Thingiverse](https://www.thingiverse.com/thing:7025215)
 - [Bottom half of RPi Case](./models/PiBottom.stl)
 
+### Code
+All our code changes are shown in this GitHub [Pull Request](https://github.com/autorope/donkeycar/pull/1237).
+
+To summarize: we added our BNO08x IMU as a separate class to not interfere with the current setup of DonkeyCar, and added a fusion component for fusing the GPS and IMU together. We then added an if-statement to check for those components in the setup of DonkeyCar and added a config option to toggle the fusion.
 
 ## Usage
 To run this fusion, follow the steps in the donkeycar repo, and change the config file to turn on the fusion.
