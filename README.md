@@ -17,7 +17,7 @@
 
 ## Team Members
 - Abdulaziz Khader - Computer Engineering - Class of 2026
-- Filip Kurial - Mechanical Engineering - Class of 2028
+- Filip Kurial - Aerospace Engineering - Class of 2028
 - Guoxi Wu - Mechanical Engineering - Class of 2026
 
 ## Abstract
@@ -29,7 +29,7 @@ The goal of this project is to create a new fusion module between the Adafruit B
 - We tested the accuracy of this fusion on DonkeyCar's path_follow project, where the car follows a path determined by the GPS markers on a loop around campus.
 
 ### Stretch Goals
-- One stretch goal is to make the IMU and GPS integration modular so that you can use the BNO08x IMU with any kind of GPS, not just the NEO-F10N GPS. 
+- One stretch goal is to make the IMU and GPS integration modular so that you can use the BNO08x IMU with any kind of GPS, not just the NEO-F10N GPS. (Accomplished)
 - Additionally, another supsequent goal is to measure the performance of the new IMU/GPS fusion against another GPS that supports RTK corrections to determine if upgrading the GPS would make a difference. 
 
 
