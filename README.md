@@ -53,7 +53,7 @@ All our code changes are shown in this GitHub [Pull Request](https://github.com/
 To summarize: we added our BNO08x IMU as a separate class to not interfere with the current setup of DonkeyCar, and added a fusion component for fusing the GPS and IMU together. We then added an if-statement to check for those components in the setup of DonkeyCar and added a config option to toggle the fusion.
 
 ## Usage
-To run this fusion, follow the steps in the donkeycar repo, and change the config file to turn on the fusion.
+To run this fusion, follow the steps in the donkeycar repo to clone it with the path_follow template, then change the ``myconfig.py`` file to turn on the fusion.
 
 ## Acknowledgements
 *Huge thanks to Professor Silberman for making this a class we can have fun with! And thanks to Winston and Jose for helping us debug all the issues with the GPS. You are incredibe and amazing people!*
