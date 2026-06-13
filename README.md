@@ -53,7 +53,7 @@ Our biggest hurdle was with getting the IMU to work together with the GPS, as th
 - [Bottom half of RPi Case](./models/PiBottom.stl)
 
 ### Electrical 
-We added the IMU to the Raspberry Pi as an I2C connection, and here is the rest of the wiring of the car:
+We added the IMU to the Raspberry Pi as a direct I2C connection, and here is the rest of the wiring of the car:
 
 ![Wiring Schematic](./images/Wiring%20Schematic.png)
 
