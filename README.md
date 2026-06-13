@@ -52,6 +52,11 @@ Our biggest hurdle was with getting the IMU to work together with the GPS, as th
 - [Top half of RPi Case - thanks to Thingiverse](https://www.thingiverse.com/thing:7025215)
 - [Bottom half of RPi Case](./models/PiBottom.stl)
 
+### Electrical 
+We added the IMU to the Raspberry Pi as an I2C connection, and here is the rest of the wiring of the car:
+
+![Wiring Schematic](./images/Wiring%20Schematic.png)
+
 ### Code
 All our code changes are shown in this GitHub [Pull Request](https://github.com/autorope/donkeycar/pull/1237).
 
