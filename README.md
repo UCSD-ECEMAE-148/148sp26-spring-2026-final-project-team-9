@@ -2,7 +2,10 @@
 ![UCSDLogo](images/UCSDLogo.png)
 
 ### <div align="center"> ECE 148 Final Project </div>
+<div align="center"> <img src="./images/Car Image.jpeg"> </div>
+
 #### <div align="center"> Team 9 Spring 2026 </div>
+<div align="center"> <img src="./images/Team Image.jpeg"> </div>
 
 ## Table of Contents
 1. [Team Members](#team-members)
@@ -27,6 +30,8 @@ The goal of this project is to create a new fusion module between the Adafruit B
 ### What We Promised
 - We managed to create a module for the BNO08x IMU and the NEO-F10n GPS, and the fusion generates locational data at 20Hz - limited by the speed of the main loop in DonkeyCar. 
 - We tested the accuracy of this fusion on DonkeyCar's path_follow project, where the car follows a path determined by the GPS markers on a loop around campus.
+
+Link to video of the car driving with the GPS/IMU fusion is found [here](https://drive.google.com/file/d/1c5hkkq--zWc0ZCswK_5Hx8fO6Ez4p7kt/view?resourcekey).
 
 ### Stretch Goals
 - One stretch goal is to make the IMU and GPS integration modular so that you can use the BNO08x IMU with any kind of GPS, not just the NEO-F10N GPS. (Accomplished)
